@@ -1,0 +1,25 @@
+{
+  "name": "p5-webpack-boilerplate",
+  "version": "0.1.0",
+  "description": "p5.js Instance Mode Webpack Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "John Elliott",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^1.8.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
